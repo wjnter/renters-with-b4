@@ -28,6 +28,27 @@ body {
   color: var(--mainWhite);
   background: var(--mainGreen);
 }
+.title-underline {
+  width: 12rem;
+  height: 0.3rem;
+  margin: 0 auto;
+  border-radius: 2rem;
+  position: relative;
+}
+.title-underline-center {
+  position: absolute;
+  width: 6rem;
+  height: 0.6rem;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  background: var(--mainGreen);
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+}
+.blockquote {
+  border-left: 0.5rem solid var(--mainGreen);
+}
 /* end of global */
 
 /* navbar */
@@ -67,5 +88,56 @@ body {
 .banner-img {
   background: url(../img/bannerBcg.jpeg) center/cover fixed no-repeat;
 }
-
 /* end of navbar */
+
+
+/* about section */
+  /* about img */
+  .img-container {
+    position: relative;
+  }
+  .featured-icons {
+    position: absolute;
+    bottom: 0; left: 50%;
+    transform: translateX(-50%);
+  }
+  .featured-icon-left {
+    background: var(--mainDark);
+    padding: 0.5rem;
+    display: inline-block;
+    color: var(--mainWhite);
+  }
+  .featured-icon-right {
+    background: var(--mainGreen);
+    padding: 0.5rem;
+    display: inline-block;
+    color: var(--mainWhite);
+  }
+  /* end of about ing */
+  
+  /* about info */
+
+  /* end of about info */
+/* end of about section */
+
+/* featured properties */
+.featured {
+  background: var(--mainGrey);
+}
+/* end of featured properties */
+
+/* contact */
+.contact {
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+}
+.btn-contact {
+  border-color: var(--mainWhite);
+  background: transparent;
+  color: var(--mainWhite);
+}
+.btn-contact:hover {
+  background: var(--mainWhite);
+  color: var(--mainGreen);
+}
+/* end of contact */
