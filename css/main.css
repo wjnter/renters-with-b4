@@ -17,7 +17,7 @@ body {
   color: var(--mainGreen);
 }
 .text-slant {
-  font-family: 'Caveat' cursive;
+  font-family: "Caveat", cursive;
 }
 .btn-green {
   border: 0.1rem solid var(--mainGreen);
@@ -28,23 +28,44 @@ body {
   color: var(--mainWhite);
   background: var(--mainGreen);
 }
+/* end of global */
 
 /* navbar */
 .navbar {
   background: var(--mainDark) !important;
 }
-.phone-icon i{
+.phone-icon {
   border: 0.1rem solid var(--mainGreen);
   color: var(--mainGreen);
-  padding: 0.5rem 0.2rem;
-  
+  padding: 0.5rem;
+  border-radius: 50%;
 }
-.btn-green {
-  border-color: var(--mainGreen);
-  color: var(--mainGreen);
-  background: var(--mainDark);
+.banner-info {
+  min-height: calc(100vh - 101px);
+  position: relative;
 }
-.btn-green:hover {
-  color: var(--mainWhite);
+.banner-img {
+  min-height: calc(100vh - 101px);
+  position: relative;
+}
+.banner-info_footer {
   background: var(--mainGreen);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
+.banner-img_footer {
+  position: absolute;
+  background: var(--mainDark);
+  bottom: 0;
+  left: 0;
+  height: 88px;
+  display: flex;
+  align-items: center;
+}
+.banner-img {
+  background: url(../img/bannerBcg.jpeg) center/cover fixed no-repeat;
+}
+
+/* end of navbar */
