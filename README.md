@@ -1,2 +1,2 @@
 # renters-with-b4
-House renters website built with bootstrap 4
+House renters website built by bootstrap 4
